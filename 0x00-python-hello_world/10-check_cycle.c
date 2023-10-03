@@ -1,7 +1,10 @@
 #include "lists.h"
-#include <stdio.h>
-#include <stdlib.h>
 
+/**
+ * check_cycle - function checks if cycle exists
+ * @list: the header of list
+ * Return: 0 if no cycle or 1 if found
+ */
 int check_cycle(listint_t *list)
 {
 
