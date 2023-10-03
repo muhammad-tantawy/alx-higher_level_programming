@@ -2,11 +2,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int check_cycle(struct ListNode)
+int check_cycle(listint_t *list)
 {
 
-	struct ListNode *slow = head;
-	struct ListNode *fast = head->next;
+	struct listint_t *slow = head;
+	struct listint_t *fast = head->next;
 	
 	if (head == NULL || head->next == NULL)
 		return 0;
