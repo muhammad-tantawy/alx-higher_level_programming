@@ -17,10 +17,9 @@ int check_cycle(listint_t *list)
 	{
 		if (fast == NULL || fast->next == NULL)
 			return 0;
+
+		slow = slow->next;
+		fast = fast->next->next;
 	}
-
-	slow = slow->next;
-	fast = fast->next->next;
-
 	return 1;
 }
