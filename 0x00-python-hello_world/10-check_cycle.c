@@ -5,10 +5,10 @@
 int check_cycle(listint_t *list)
 {
 
-	struct listint_t *slow = head;
-	struct listint_t *fast = head->next;
+	listint_t *slow = list;
+	listint_t *fast = list->next;
 	
-	if (head == NULL || head->next == NULL)
+	if (list == NULL || list->next == NULL)
 		return 0;
 	while (slow != fast)
 	{
