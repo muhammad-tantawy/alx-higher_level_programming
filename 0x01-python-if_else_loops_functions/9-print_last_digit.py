@@ -2,6 +2,6 @@
 def print_last_digit(number):
     last = (int(str(number)[-1]))
     if number > 0:
-        print("{}".format(last))
+        print("{}".format(last),end="")
     elif number < 0:
-        print("{}".format(last * -1))
+        print("{}".format(last * -1),end="")
