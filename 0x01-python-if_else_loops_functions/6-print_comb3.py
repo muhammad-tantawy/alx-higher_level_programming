@@ -5,5 +5,5 @@ for i in range(0, 10):
         if i == 8 and b == 9:
             print("{}{}".format(i, b))
         else:
-            print("{}".format(i),end="")
-            print("{}".format(b),end=", ")
+            print("{}".format(i), end="")
+            print("{}".format(b), end=", ")
