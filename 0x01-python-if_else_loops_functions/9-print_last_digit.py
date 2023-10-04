@@ -1,3 +1,6 @@
 #!/usr/bin/python3
 def print_last_digit(number):
-    return (int(str(number)[-1]))
+    if number > 0:
+        return (int(str(number)[-1]))
+    elif number < 0:
+        return (int(str(number)[-1]) * -1)
