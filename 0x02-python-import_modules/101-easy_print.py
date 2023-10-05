@@ -1,2 +1,2 @@
 #!/usr/bin/python3
-raise Exception("#pythoniscool")
+raise Exception("#pythoniscool\n")
