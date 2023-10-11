@@ -7,6 +7,6 @@ def square_matrix_simple(matrix=[]):
     new_matrix = []
     for col in matrix:
         for x in col:
-            result = lambda x: x**2
+            result = x**2
             new_matrix.append(result)
     return new_matrix
